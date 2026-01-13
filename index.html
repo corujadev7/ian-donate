@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salve o Ian! - Vakinha</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 pb-20 lg:pb-0">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-40">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="w-10 h-10 bg-emerald-500 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">V</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-gray-900">Como ajudar</a>
+                    <a href="#" class="text-gray-700 hover:text-gray-900">Descubra</a>
+                    <a href="#" class="text-gray-700 hover:text-gray-900">Como funciona</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button class="text-gray-700 hover:text-gray-900">Buscar 🔍</button>
+                    <button class="text-gray-700 hover:text-gray-900">Minha conta</button>
+                    <button class="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-600 font-medium">
+                        Criar vaquinha
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="text-center mb-6">
+            <p class="text-sm text-gray-600 uppercase tracking-wide mb-2">SAÚDE / TRATAMENTOS</p>
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">Salve o Ian!</h1>
+            <p class="text-gray-600">ID: LUAHFI4AOIPJ</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Left Content -->
+            <div class="lg:col-span-2">
+                <!-- Campaign Image -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden mb-6">
+                    <img src="./images/ian.png" alt="Ajude Ian" class="w-full h-auto">
+                </div>
+
+                <!-- Social Badges -->
+                <div class="flex items-center space-x-2 mb-4">
+                    <span
+                        class="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-medium">AS</span>
+                    <span
+                        class="w-10 h-10 bg-emerald-500 text-white rounded-full flex items-center justify-center text-xl">💚</span>
+                    <span
+                        class="w-10 h-10 bg-pink-600 text-white rounded-full flex items-center justify-center text-sm font-medium">IM</span>
+                    <span
+                        class="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center text-sm font-medium">LQ</span>
+                    <span
+                        class="w-10 h-10 bg-emerald-600 text-white rounded-full flex items-center justify-center text-sm font-medium">KG</span>
+                    <span
+                        class="w-10 h-10 bg-gray-200 text-gray-700 rounded-full flex items-center justify-center text-sm font-medium">+</span>
+                </div>
+
+                <p class="text-gray-700 mb-6">278 corações recebidos 💚</p>
+
+                <!-- Mobile Donation Widget - shown only on mobile below hero banner -->
+                <div class="lg:hidden bg-white rounded-lg shadow-sm p-6 mb-6">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mr-3">
+                            <span class="text-2xl">💚</span>
+                        </div>
+                        <div class="text-sm">
+                            <p class="text-gray-600">Ativo(a) no Vakinha desde 26/07/2025</p>
+                            <p class="font-medium text-gray-900">12 vaquinhas criadas • 1 vaquinha apoiada</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <p class="text-gray-600 text-sm mb-2">19%</p>
+                        <div class="w-full bg-gray-200 rounded-full h-2 mb-3">
+                            <div class="bg-emerald-500 h-2 rounded-full" style="width: 11%"></div>
+                        </div>
+                        <p class="text-3xl font-bold text-emerald-600 mb-1">R$ 28.711,10</p>
+                        <p class="text-gray-600 text-sm">de R$ 150.000,00</p>
+                    </div>
+                </div>
+
+                <!-- Tabs -->
+                <div class="border-b border-gray-200 mb-6">
+                    <div class="flex space-x-8">
+                        <button class="pb-3 border-b-2 border-emerald-500 text-emerald-600 font-medium">Sobre</button>
+                        <button class="pb-3 text-gray-600 hover:text-gray-900">Novidades</button>
+                        <button class="pb-3 text-gray-600 hover:text-gray-900">Quem ajudou</button>
+                    </div>
+                </div>
+
+                <!-- Campaign Description -->
+                <div class="bg-white rounded-lg shadow-sm p-6 mb-6">
+                    <div class="prose max-w-none">
+                        <p class="text-gray-800 mb-4">
+                            <strong>Vaquinha criada em:</strong> 19/12/2025
+                        </p>
+                        <p class="text-gray-800 mb-4">
+                            Ian tem apenas <strong>8 anos</strong>, mora em Porto Seguro e já enfrenta desafios que
+                            mudaram completamente sua vida e a de sua família.
+                        </p>
+                        <p class="text-gray-800 mb-4">
+                            Ele vive com <strong>diabetes e hipertensão</strong>, usa insulina e, quando era
+                            <strong>bebê</strong>, precisou passar por uma <strong>cirurgia no coração</strong>.
+                        </p>
+                        <p class="text-gray-800 mb-4">
+                            Ainda pequeno, foi atingido pela <strong>Síndrome de Guillain-Barré</strong>, que lhe trouxe
+                            sequelas graves: <strong>perdeu o paladar</strong> e hoje se alimenta principalmente por
+                            <strong>gastrostomia</strong>. A doença também afetou seus movimentos <strong>da região do
+                                quadril para baixo</strong>.
+                        </p>
+                        <p class="text-gray-800 mb-4">
+                            Ian precisa urgentemente de uma <strong>cadeira de rodas adaptada</strong> — a que usa é
+                            emprestada do hospital — e de uma <strong>cirurgia de colostomia</strong>, pois já sofre com
+                            <strong>sangramentos e dores intensas</strong>, mesmo com os cuidados diários.
+                        </p>
+                        <p class="text-gray-800 mb-4">
+                            Para ajudar nos <strong>altos gastos com sua saúde</strong> e porque sua mãe deixou de
+                            trabalhar para cuidar dele em tempo integral, Ian encontrou uma terapia e uma fonte de
+                            renda: o <strong>crochê</strong>.
+                        </p>
+                        <p class="text-gray-800 mb-4">
+                            Fazendo tapetes, ele não só mantém as mãos ativas, como também <strong>ajuda a custear seus
+                                próprios tratamentos</strong>.
+                        </p>
+                        <p class="text-gray-800 mb-4 text-lg font-semibold">
+                            Criamos este apelo com um único propósito: <strong>aliviar a luta do Ian</strong>.
+                        </p>
+                        <p class="text-gray-800 mb-4">
+                            Os custos são altos e urgentes: a cadeira adaptada, a cirurgia, medicamentos, insumos e todo
+                            o cuidado que sua condição exige.
+                        </p>
+                        <p class="text-gray-800 mb-4">
+                            Sabemos que <strong>nenhuma ajuda é pequena</strong>.
+                        </p>
+                        <p class="text-gray-800 mb-4">
+                            Uma compra, um compartilhamento, uma doação via PIX — <strong>tudo faz diferença</strong>.
+                        </p>
+                        <p class="text-gray-800 mb-4">
+                            Hoje é o Ian. Amanhã pode ser qualquer criança.
+                        </p>
+                        <p class="text-gray-800 mb-4">
+                            Vamos ajudá-lo a ter acesso ao cuidado que precisa, com mais dignidade e menos dor.
+                        </p>
+                        <p class="text-gray-800 mb-6">
+                            A qualidade de vida do Ian depende desse apoio — e ele só é possível com você.
+                        </p>
+
+                        <button onclick="openModal()"
+                            class="w-full bg-emerald-500 text-white py-4 rounded-lg hover:bg-emerald-600 font-semibold text-lg transition-colors hidden lg:block">
+                            Quero Ajudar
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Second CTA Button - Desktop only -->
+                <button onclick="openModal()"
+                    class="hidden lg:block w-full bg-emerald-500 text-white py-4 rounded-lg hover:bg-emerald-600 font-semibold text-lg mb-6 transition-colors">
+                    Ajudar Agora
+                </button>
+
+                <!-- Legal Notice -->
+                <p class="text-xs text-gray-500 text-center mb-8">
+                    AVISO LEGAL: O texto e as imagens incluídos nessa página são de única e exclusiva responsabilidade
+                    do criador da vaquinha e não representam a opinião ou endosso da plataforma Vakinha.
+                </p>
+            </div>
+
+            <!-- Right Sidebar - Desktop only -->
+            <div class="lg:col-span-1">
+                <div class="bg-white rounded-lg shadow-lg p-6 sticky top-24">
+
+                    <span
+                        class="inline-block bg-emerald-100 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">
+                        Arrecadado
+                    </span>
+
+                    <p class="text-4xl font-bold text-emerald-600 mb-2">
+                        R$ 28.711,10
+                    </p>
+
+                    <!-- Progress Bar -->
+                    <div class="w-full bg-gray-200 rounded-full h-3 mb-4 overflow-hidden">
+                        <div class="bg-emerald-500 h-3 rounded-full transition-all duration-700" style="width: 19.14%;">
+                        </div>
+                    </div>
+
+                    <p class="text-gray-600 mb-1">Meta R$ 150.000,00</p>
+                    <p class="text-gray-600 mb-6">Apoiadores 289</p>
+
+                    <button onclick="openModal()"
+                        class="w-full bg-emerald-500 text-white py-4 rounded-lg hover:bg-emerald-600 font-semibold text-lg mb-6 transition-colors">
+                        Quero Ajudar
+                    </button>
+
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-gray-200 rounded-full mr-3"></div>
+                        <div>
+                            <p class="text-sm text-gray-600">Ativo(a) no Vakinha desde 26/07/2025</p>
+                            <p class="text-sm font-medium text-gray-900">
+                                12 vaquinhas criadas • 3 vaquinhas apoiadas
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="text-sm text-emerald-600 hover:text-emerald-700">Leia mais</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Logo -->
+                <div>
+                    <div class="w-10 h-10 bg-emerald-500 rounded-lg flex items-center justify-center mb-4">
+                        <span class="text-white font-bold text-xl">V</span>
+                    </div>
+                </div>
+
+                <!-- Links rápidos -->
+                <div>
+                    <h3 class="text-emerald-400 font-semibold mb-4">Links rápidos</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-emerald-400">Quem somos</a></li>
+                        <li><a href="#" class="hover:text-emerald-400">Vaquinhas</a></li>
+                        <li><a href="#" class="hover:text-emerald-400">Criar vaquinhas</a></li>
+                        <li><a href="#" class="hover:text-emerald-400">Login</a></li>
+                        <li><a href="#" class="hover:text-emerald-400">Vaquinhas mais amadas</a></li>
+                        <li><a href="#" class="hover:text-emerald-400">Política de privacidade</a></li>
+                        <li><a href="#" class="hover:text-emerald-400">Termos de uso</a></li>
+                    </ul>
+                </div>
+
+                <!-- Suporte -->
+                <div>
+                    <h3 class="text-emerald-400 font-semibold mb-4">Suporte</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-emerald-400">Dúvidas frequentes</a></li>
+                        <li><a href="#" class="hover:text-emerald-400">Taxas e prazos</a></li>
+                        <li><a href="#" class="hover:text-emerald-400">Loja de corações</a></li>
+                        <li><a href="#" class="hover:text-emerald-400">Vakinha Premiada</a></li>
+                        <li><a href="#" class="hover:text-emerald-400">Blog do Vakinha</a></li>
+                        <li><a href="#" class="hover:text-emerald-400">Segurança e transparência</a></li>
+                        <li><a href="#" class="hover:text-emerald-400">Busca por recibo</a></li>
+                    </ul>
+                </div>
+
+                <!-- Fale conosco & App -->
+                <div>
+                    <h3 class="text-emerald-400 font-semibold mb-4">Fale conosco</h3>
+                    <p class="text-sm mb-2"><a href="#" class="hover:text-emerald-400">Clique aqui para falar
+                            conosco</a></p>
+                    <p class="text-sm mb-4">De Segunda à Sexta<br>Das 9:30 às 17:00</p>
+
+                    <div>
+                        <a href="#" class="block">
+                            <img src="./images/selo_seguranca.webp" alt="Google Play" class="h-10">
+                        </a>
+                    </div>
+
+                    <h3 class="text-emerald-400 font-semibold mb-4">Baixe nosso App</h3>
+                    <div class="space-y-2">
+                        <a href="#" class="block">
+                            <img src="./images/google_play.svg" alt="Google Play" class="h-10">
+                        </a>
+                        <a href="#" class="block">
+                            <img src="./images/apple_store.svg" alt="App Store" class="h-10">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
+                <p>© 2025 - Todos direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal PIX -->
+    <div id="pixModal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-8 relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 text-2xl">
+                &times;
+            </button>
+
+            <div class="text-center">
+                <div class="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                        </path>
+                    </svg>
+                </div>
+
+                <h2 class="text-2xl font-bold text-gray-900 mb-2">Ajude o Ian!</h2>
+                <p class="text-gray-600 mb-6">Use a chave PIX abaixo para fazer sua doação</p>
+                <p class="text-gray-600 mb-6"><strong>Nome:</strong> Larissa Placido Costa (Mãe do Ian)</p>
+
+                <div class="bg-gray-50 rounded-lg p-4 mb-4">
+                    <p class="text-xs text-gray-500 uppercase mb-2">Chave PIX (E-mail)</p>
+                    <p id="pixKey" class="text-lg font-mono text-gray-900 break-all">ajudeian@vakinha.com.br</p>
+                </div>
+
+                <button id="copyBtn"
+                    class="w-full bg-emerald-500 text-white py-3 rounded-lg hover:bg-emerald-600 font-semibold transition-colors mb-3">
+                    Copiar Chave PIX
+                </button>
+
+                <button onclick="closeModal()"
+                    class="w-full bg-gray-100 text-gray-700 py-3 rounded-lg hover:bg-gray-200 font-semibold transition-colors">
+                    Fechar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fixed Mobile Button -->
+    <div class="lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-4 z-40 shadow-lg">
+        <button onclick="openModal()"
+            class="w-full bg-emerald-500 text-white py-4 rounded-lg hover:bg-emerald-600 font-semibold text-lg transition-colors shadow-md">
+            Ajudar Agora
+        </button>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('pixModal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('pixModal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        function copyPixKey() {
+            const pixKey = document.getElementById('pixKey').textContent;
+            navigator.clipboard.writeText(pixKey).then(() => {
+                // Change button text temporarily
+                const button = event.target;
+                const originalText = button.textContent;
+                button.textContent = '✓ Copiado!';
+                button.classList.add('bg-emerald-600');
+
+                setTimeout(() => {
+                    button.textContent = originalText;
+                    button.classList.remove('bg-emerald-600');
+                }, 2000);
+            }).catch(err => {
+                alert('Erro ao copiar: ' + err);
+            });
+        }
+        document.getElementById('copyBtn').addEventListener('click', function () {
+            const pixKey = document.getElementById('pixKey').textContent;
+
+            navigator.clipboard.writeText(pixKey).then(() => {
+                const button = this;
+                const originalText = button.textContent;
+
+                button.textContent = '✓ Copiado!';
+                button.classList.add('bg-emerald-600');
+
+                setTimeout(() => {
+                    button.textContent = originalText;
+                    button.classList.remove('bg-emerald-600');
+                }, 2000);
+            });
+        });
+
+        // Close modal when clicking outside
+        document.getElementById('pixModal').addEventListener('click', function (e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        // Close modal with ESC key
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+
+</html>
